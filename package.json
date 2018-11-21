@@ -1,0 +1,16 @@
+{
+  "name": "pomodoro_clock",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "bootstrap3": "^3.3.5",
+    "material-ui": "^0.20.2",
+    "meteor-node-stubs": "~0.2.4",
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.0",
+    "react-dom": "^16.5.2"
+  }
+}

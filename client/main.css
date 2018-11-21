@@ -1,0 +1,88 @@
+/* CSS declarations go here */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.clock-outer {
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.clock-panel {
+  color: #fff;
+}
+.clock-outer .panel-heading {
+  font-size: 48px;
+  color: #fff !important;
+  text-align: center;
+  padding: 5px;
+  background: #333 !important;
+  border-color: #333;
+}
+.clock-outer .panel-body {
+  padding: 0;
+  background: #333;
+  border-color: #333;
+}
+.clock-outer .panel-footer {
+  text-align: center;
+  background: #333;
+}
+.container.clock-grid {
+  width: 494px;
+  margin: 2px 0;
+  padding: 0;
+}
+.clock-grid .row {
+  margin: 0;
+}
+.col-xs-4, .col-sm-4, .col-md-4, 
+.col-xs-6, .col-sm-6, .col-md-6 {
+  padding: 0;
+}
+.clock-subtitle {
+  font-size: 30px;
+  text-align: center;
+}
+.clock-session {
+  font-size: 30px;
+  text-align: center;
+}
+.clock-reset-btn {
+  margin-left: 5px;
+}
+.container.control-grid {
+  width: 200px;
+  margin: 2px auto;
+  padding: 0;
+}
+.control-grid .row {
+  margin: 0;
+}
