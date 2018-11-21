@@ -149,7 +149,6 @@ class App extends Component {
    * [cancelTimer description]
    */
   cancelTimer () {
-  	//this.state.timerID && this.state.timerID.cancel();
   	this.state.timerID && clearInterval(this.state.timerID);
   }
 
